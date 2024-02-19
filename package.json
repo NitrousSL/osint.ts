@@ -1,6 +1,6 @@
 {
   "name": "osint.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "typescript lib for creating osint modules",
   "main": "dist/index.js",
   "scripts": {
