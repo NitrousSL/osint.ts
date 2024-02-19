@@ -1,8 +1,9 @@
 {
   "name": "osint.ts",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "typescript lib for creating osint modules",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json"
   },
