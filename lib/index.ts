@@ -1,4 +1,3 @@
-import { APIEnvironment }    from "@enum/eAPIEnvironment";
 import { ModuleCategory }    from "@enum/eModuleCategory";
 import { ModuleType }        from "@enum/eModuleType";
 
@@ -45,7 +44,6 @@ export function getModules(implDir: string) : Module[] {
 }
 
 export {
-    APIEnvironment,
     ModuleCategory,
     ModuleType,
     IModuleMeta,
