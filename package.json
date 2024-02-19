@@ -1,0 +1,31 @@
+{
+  "name": "osint.ts",
+  "version": "1.0.0",
+  "description": "typescript lib for creating osint modules",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json && tsc-alias -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NitrousSL/osint.ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "osint"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NitrousSL/osint.ts/issues"
+  },
+  "homepage": "https://github.com/NitrousSL/osint.ts#readme",
+  "dependencies": {
+    "require-all": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/require-all": "^3.0.6",
+    "tsc-alias": "^1.8.8"
+  }
+}
